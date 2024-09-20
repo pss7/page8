@@ -19,13 +19,13 @@
 #section01 .slick-dots li.slick-active button{background: #ff661a;}
 #section01 .slick-dots li button{display: block; width: 15px; height: 15px; text-indent: -9999px; border-radius: 50%; background-color:#D2D6E0; cursor: pointer; border: solid 2px #ff661a; background: transparent;}
 #section01 .scroll{position: absolute; left: 50%; transform: translateX(-50%); bottom: 40px; display: block; width: 20px; height: 20px; background: url(../images/main/scroll_icon.png)no-repeat;}
-#section01 .mainSlide.mainSlide03{position: relative;}
-#section01 .mainSlide.mainSlide03::after{content: ''; position: absolute; bottom: 0; right:0; width: 600px; height: 600px; background: url(../images/main/bg03_img01.png)no-repeat;}
+#section01 .mainSlide.mainSlide03{position: relative; z-index: 9;}
+#section01 .mainSlide.mainSlide03::after{content: ''; position: absolute; bottom: 0; right:0; width: 600px; height: 600px; background: url(../images/main/bg03_img01.png)no-repeat; background-size: cover; z-index: -1;}
 #section01 .mainSlide.mainSlide03 .infoList{margin-bottom: 40px;}
 #section01 .mainSlide.mainSlide03 .infoList li{padding: 14.5px 0; margin-bottom: 10px; text-align: center; font-size: 50px; font-weight: 500; color: #000; background-color: #ff661a;}
 #section01 .mainSlide.mainSlide03 .infoList li strong{font-weight: 700; font-size: 65px; color: #000;}
-#section01 .mainSlide.mainSlide03 .contactWrap .callBox{margin: 0 auto 20px; width: 260px; padding: 12px 33px 11px; border-radius: 50px; background-color: #000;}
-#section01 .mainSlide.mainSlide03 .contactWrap .callBox .call{position: relative; padding-left: 40px; font-size: 25px; font-weight: 500; color: #ff661a;}
+#section01 .mainSlide.mainSlide03 .contactWrap .callBox{margin: 0 auto 20px; width: 260px; padding: 12px 33px 11px; border-radius: 50px; background-color: #000; letter-spacing: -1px;}
+#section01 .mainSlide.mainSlide03 .contactWrap .callBox .call{position: relative; padding-left: 40px; font-size: 25px; font-weight: 500; color: #ff661a; font-weight: 700;}
 #section01 .mainSlide.mainSlide03 .contactWrap .callBox .call::before{content: ''; position: absolute; top:-2px; left:0; width: 30px; height: 30px; background: url(../images/main/call.png)no-repeat;}
 #section01 .mainSlide.mainSlide03 .contactWrap .number{display: block; margin-bottom: 11px; text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); font-size: 50px; font-weight: 700; color: #fff; text-align: center;}
 #section01 .mainSlide.mainSlide03 .contactWrap p{font-size: 20px; font-weight: 600; text-align: center; color: #fff;}
@@ -50,5 +50,15 @@
     #section01 .text03 strong em::before{top: -10px; width: 6px; height: 6px;}
     #section01 .scroll{bottom: 30px;}
     #section01 .slick-dots{bottom: 95px;}
+
+    #section01 .mainSlide.mainSlide03 h1{margin-bottom: 23px;}
+    #section01 .mainSlide.mainSlide03::after{width: 208px; height: 264px;}
+    #section01 .mainSlide.mainSlide03 .infoList li{margin-bottom: 5px; padding: 8px 0; font-size: 30px;}
+    #section01 .mainSlide.mainSlide03 .infoList li strong{font-size: 40px;}
+    #section01 .mainSlide.mainSlide03 .contactWrap .callBox{padding: 12px 23px 11px; width: 180px; margin: 0 auto 15px;}
+    #section01 .mainSlide.mainSlide03 .contactWrap .callBox .call{padding-left: 25px; font-size: 18px;}
+    #section01 .mainSlide.mainSlide03 .contactWrap .callBox .call::before{width: 20px; height: 20px; background-size: cover;}
+    #section01 .mainSlide.mainSlide03 .contactWrap .number{font-size: 35px;}
+    #section01 .mainSlide.mainSlide03 .contactWrap p{font-size: 16px;}
 
 }

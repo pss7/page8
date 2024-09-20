@@ -1,46 +1,61 @@
 @charset "utf-8";
 
+@import url('https://webfontworld.github.io/gonggames/EsaManru.css');
+@import url('https://webfontworld.github.io/vitro/VitroCore.css');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+
 @font-face {
-    font-family: 'SourceCodePro';
-    font-style: normal;
+    font-family: 'EsaManru';
     font-weight: 700;
-    src: url(fonts/SourceCodePro-Bold.woff2) format('woff2'),
-        url(fonts/SourceCodePro-Bold.woff) format('woff'),
-        url(fonts/SourceCodePro-Bold.otf) format('opentype'),
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruBold.ttf') format("truetype");
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'SourceCodePro';
+    font-family: 'EsaManru';
+    font-weight: 500;
     font-style: normal;
-    font-weight: 400;
-    src: url(fonts/SourceCodePro-Regular.woff2) format('woff2'),
-        url(fonts/SourceCodePro-Regular.woff) format('woff'),
-        url(fonts/SourceCodePro-Regular.otf) format('opentype'),
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruMedium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruMedium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruMedium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruMedium.ttf') format("truetype");
+    font-display: swap;
 }
 
+
 @font-face {
-    font-family: 'SourceCodePro';
-    font-style: normal;
+    font-family: 'EsaManru';
     font-weight: 300;
-    src: url(fonts/SourceCodePro-ExtraLight.woff2) format('woff2'),
-        url(fonts/SourceCodePro-ExtraLight.woff) format('woff'),
-        url(fonts/SourceCodePro-ExtraLight.otf) format('opentype'),
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gonggames/EsaManruLight.ttf') format("truetype");
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'SpoqaHanSansNeo';
+    font-family: 'VITROCORETTF';
+    font-weight: normal;
     font-style: normal;
-    font-weight: 700;
-    src: url(fonts/SpoqaHanSansNeo-Bold.woff2) format('woff2'),
-        url(fonts/SpoqaHanSansNeo-Bold.woff) format('woff'),
-        url(fonts/SpoqaHanSansNeo-Bold.otf) format('opentype'),
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/vitro/VitroCore.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/vitro/VitroCore.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/vitro/VitroCore.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/vitro/VitroCore.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/vitro/VitroCore.ttf') format("truetype");
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'SpoqaHanSansNeo';
-    font-style: normal;
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
-    src: url(fonts/SpoqaHanSansNeo-Regular.woff2) format('woff2'),
-        url(fonts/SpoqaHanSansNeo-Regular.woff) format('woff'),
-        url(fonts/SpoqaHanSansNeo-Regular.otf) format('opentype'),
+    font-style: normal;
 }

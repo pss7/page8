@@ -2,13 +2,11 @@
 
 *{outline: 0;  box-sizing: border-box; }
 
-html{}
-
-body{min-width: 320px; line-height: 1.5; word-wrap: break-word; word-break: break-all; overflow-x: hidden;}
+body{min-width: 320px; line-height: 1.1; word-wrap: break-word; word-break: break-all; overflow-x: hidden;}
 
 table {border-collapse: collapse; border-spacing: 0;}
 
-body, input, textarea, select, button, table{font-family: 'SourceCodePro', sans-serif; color: #222; font-size: 16px;}
+body, input, textarea, select, button, table{font-family:'EsaManru',sans-serif; color: #222; font-size: 16px;}
 
 fieldset, img, button{border:0;}
 

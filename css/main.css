@@ -22,7 +22,7 @@
 #section01 .slick-dots li button{display: block; width: 15px; height: 15px; text-indent: -9999px; border-radius: 50%; background-color:#D2D6E0; cursor: pointer; border: solid 2px #ff661a; background: transparent;}
 #section01 .scroll{position: absolute; left: 50%; transform: translateX(-50%); bottom: 40px; display: block; width: 20px; height: 20px; background: url(../images/main/scroll_icon.png)no-repeat;}
 #section01 .mainSlide.mainSlide03{position: relative; z-index: 9;}
-#section01 .mainSlide.mainSlide03::after{content: ''; position: absolute; bottom: 0; right:0; width: 600px; height: 600px; background: url(../images/main/bg03_img01.png)no-repeat; background-size: cover; z-index: -1;}
+#section01 .mainSlide.mainSlide03::after{content: ''; position: absolute; bottom: 0; right:0; width: 600px; height: 600px; background: url(../images/main/bg03_img01.png)no-repeat; background-size: cover; z-index: 1;}
 #section01 .mainSlide.mainSlide03 .infoList{margin-bottom: 40px;}
 #section01 .mainSlide.mainSlide03 .infoList li{padding: 14.5px 0; margin-bottom: 10px; text-align: center; font-size: 50px; font-weight: 500; color: #000; background-color: #ff661a;}
 #section01 .mainSlide.mainSlide03 .infoList li strong{font-weight: 700; font-size: 65px; color: #000;}
@@ -34,6 +34,7 @@
 #section01 .mainSlide.mainSlide01{padding: 60px 0 0; background: url(../images/main/main_bg01.jpg)no-repeat center top; background-size: cover;}
 #section01 .mainSlide.mainSlide02{padding: 60px 0 0; background: url(../images/main/main_bg02.jpg)no-repeat center top; background-size: cover;}
 #section01 .mainSlide.mainSlide03{padding: 60px 0 0; background: url(../images/main/main_bg03.jpg)no-repeat center top; background-size: cover;}
+#section01 .contactWrap{position: relative; z-index: 999;}
 
 @media (max-width: 1024px){
 
@@ -111,7 +112,7 @@
 
 /* section03 */
 #section03{padding: 140px 0 83px; background: url(../images/main/bg03.jpg)no-repeat center top; background-size: cover;}
-#section03 .titleWrap{margin-bottom: 17px;} 
+#section03 .titleWrap{margin-bottom: 0;} 
 #section03 .titleWrap h1{display: flex; gap: 8px; justify-content: center;}
 #section03 .titleWrap h1 span em{font-size: 70px;}
 #section03 .titleWrap h1 span,
@@ -167,5 +168,112 @@
     #section04 .text01{margin-bottom: 104px; font-size: 18px;}
     #section04 .list li{width: 200px; height: 120px; line-height: 120px; font-size: 30px;}
     #section04 .list::after{top: -70px;}
+
+}
+
+/* section05 */
+#section05{padding: 140px 0 150px; background: url(../images/main/bg05.jpg)no-repeat center top; background-size: cover;}
+#section05 .titleWrap{margin-bottom: 0;}
+#section05 .titleWrap h1{display: flex; justify-content: center; gap: 15px;}
+#section05 .titleWrap h1 span{text-shadow: none;}
+#section05 .titleWrap h1 strong{text-shadow: none;}
+#section05 .text01{margin-bottom: 110px; text-align: center; line-height: 1.25; font-size: 25px; color: #fff; font-weight: 600; font-family: 'Pretendard';}
+#section05 .text01 strong{color: #ff661a; font-weight: 600;}
+#section05 h2{position: relative; width: 320px; height: 80px; line-height: 80px; margin: 0 auto 73px; font-size: 45px; text-align: center; color: #000; font-weight: 700; border-radius: 40px; background-color: #ff661a; letter-spacing: -2px;}
+#section05 h2::after{content: ''; position: absolute; top:-80px; left: 50%; margin-left: -2.5px; width: 5px; height: 50px; background-color: #ff661a;}
+#section05 .certList{display: flex; gap: 20px; align-items: center; justify-content: center;}
+#section05 .certList li{flex: 1;}
+#section05 .certList li img{display: block; width: 100%;}
+
+@media (max-width: 1024px){
+
+    #section05 .titleWrap h1 span{margin-bottom: 3px;}
+    #section05{padding: 90px 0 100px;}
+    #section05 .titleWrap h1 span{font-size: 40px;}
+    #section05 .titleWrap h1 strong{font-size: 40px;}
+    #section05 .text01{margin-bottom: 102px; font-size: 18px; line-height: 1.35;}
+    #section05 .text01 strong{font-size: 20px;}
+    #section05 h2{margin: 0 auto 30px; width: 200px; height: 50px; line-height: 50px; font-size: 30px;}
+    #section05 h2::after{top: -70px; height: 40px;}
+
+}
+
+@media (max-width: 576px){
+
+    #section05 .titleWrap h1{letter-spacing: -2px;}
+    #section05 .container{padding: 0 27px;}
+    #section05 .certList{flex-wrap: wrap; gap: 20px 4.76%;}
+    #section05 .certList li{flex: none; width: 47.62%;}
+
+}
+
+@media (max-width: 480px){
+
+    #section05 .titleWrap h1{flex-wrap: wrap;}
+
+}
+
+/* section06 */
+#section06{padding: 160px 0 35px; background: url(../images/main/bg06.jpg)no-repeat center top; background-size: cover;}
+#section06 .titleWrap{margin-bottom: 42px;}
+#section06 .titleWrap .title{font-size: 60px; color: #fff; font-family: 'Pretendard'; text-align: center; font-size: 60px; font-weight: 600; line-height: 1.2;}
+#section06 .titleWrap .title strong{color: #ff661a; letter-spacing: -3px; font-weight: 800;}
+#section06 .text01{margin-bottom: 130px; text-align: center; font-size: 20px; color: #fff; font-weight: 600; font-family: 'Pretendard'; line-height: 1.4;}
+#section06 .imgWrap{position: relative; max-width: 740px; /*height: 480px;*/ height: 0; padding-top: 40%; margin: 0 auto;}
+#section06 .imgWrap::after{content: ''; margin-left: -2.5px; position: absolute; top:-90px; left:50%; width: 5px; height: 50px; background-color: #ff661a;}
+#section06 .imgWrap img{display: block; margin: 0 auto; position: absolute; top:0; left:0; right:0; bottom: 0; max-width: 100%; max-height: 100%; object-fit: cover;}
+
+@media (max-width: 1024px){
+
+    #section06{padding: 80px 0 90px;}
+    #section06 .imgWrap::after{top: -78px;}
+    #section06 .titleWrap {margin-bottom: 19px;}
+    #section06 .titleWrap .title{font-size: 30px; }
+    #section06 .titleWrap .title strong{letter-spacing: 0;}
+    #section06 .text01{margin-bottom: 117px; font-size: 18px;}
+    #section06 .imgWrap{padding-top: 68%;}
+    #section06 .imgWrap::after{height: 40px;}
+    
+}
+
+/* section07 */
+#section07{padding: 120px 0; background-color: #262626;}
+#section07 .titleWrap .title h1 span{margin: 0; font-size: 80px; text-shadow: none; font-weight: 700;}
+#section07 .titleWrap .title h1 strong{font-size: 80px; text-shadow: none; font-family: 'EsaManru', sans-serif;}
+#section07 .titleWrap{margin-bottom: 117px;}
+#section07 .titleWrap .title h1{display: flex; align-items: center; gap: 13px; justify-content: center;}
+#section07 .videoList::after{content: ''; position: absolute; top:-100px; left: 50%; width: 5px; height: 50px; background-color: #ff661a;}
+#section07 .videoList{position: relative; margin-bottom: 40px; display: flex; justify-content: center; gap: 0 2.51%; flex-wrap: wrap;}
+#section07 .videoList li:nth-child(n + 4){margin-bottom: 0;}
+#section07 .videoList li{width: 31.66%; height: 0; margin-bottom: 2.5%; padding-top: 20.9%; background-color: #fff;}
+#section07 .videoList li .videoBox{position: absolute; top:0; left:0; right:0; bottom: 0; width: 100%; height: 100%;}
+#section07 .view{position: relative; display: block; margin: 0 auto; width: 240px; height: 60px; line-height: 60px; background-color: #ff661a; border-radius: 30px;}
+#section07 .view span{padding-left: 40px; font-size: 20px; font-weight: 500; color: #000;  }
+#section07 .view::after{content: ''; position: absolute; transform: translateY(-50%); top:50%; right:30px; width: 15px; height: 15px; background: url(../images/main/arrow.png)no-repeat;}
+
+@media (max-width: 1024px){
+
+    #section07{padding: 80px 0 100px;}
+    #section07 .titleWrap{margin-bottom: 103px;}
+    #section07 .titleWrap .title h1 span,
+    #section07 .titleWrap .title h1 strong{font-size: 40px;}
+    /* #section07 .videoList li{width: 200px; height: 130px;} */
+    #section07 .videoList li{width: 37%; margin-bottom: 2.1%;}
+    #section07 .videoList li:nth-child(n + 3){margin-bottom: 0;}
+    #section07 .videoList li:nth-child(n + 5){display: none;}
+    #section07 .videoList{margin-bottom: 60px; gap: 2.1%;}
+    #section07 .videoList::after{height: 40px; top: -70px;}
+
+}
+
+@media (max-width: 768px){
+
+    #section07 .videoList li{width: 42%; padding-top: 28%;}
+
+}
+
+@media (max-width: 480px){
+
+    #section07 .videoList li{width: 47.8%; padding-top: 31%;}
 
 }

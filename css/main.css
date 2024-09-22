@@ -357,3 +357,7 @@
     #footer p{height: auto; padding: 27px 0;}
 
 }
+
+/* aside */
+aside{display: flex; flex-direction: column; position: fixed; bottom: 0; right:0;}
+aside a img{display: block;}

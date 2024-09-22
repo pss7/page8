@@ -8,12 +8,4 @@ $(function () {
         return false;
     });
 
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 50) {
-            $('aside').fadeIn();
-        } else {
-            $('aside').fadeOut();
-        }
-    });
-
 });

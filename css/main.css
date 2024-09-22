@@ -188,6 +188,7 @@
     .titleWrap h1 span{font-size: 30px;}
     .titleWrap h1 strong{font-size: 35px;}
 
+    #section02 .text01{flex-direction: column;}
     #section02 .text01{font-size: 30px;}
     #section02 .text01 strong{width: 156px; height: 70px; font-size: 35px;}
     #section02 .text02 strong,

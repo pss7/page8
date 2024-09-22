@@ -66,6 +66,24 @@
 
 }
 
+@media (max-width: 460px){
+
+    #section01 .mainSlide .logo img{width: 108px;}
+    #section01 .mainSlide h1{font-size: 36px;}
+    #section01 .mainSlide .text01,
+    #section01 .mainSlide .text01 strong{font-size: 20px;}
+    #section01 .mainSlide .text02 strong{font-size: 35px;}
+    #section01 .mainSlide .text02 span{font-size: 20px;}
+    #section01 .text03 strong,
+    #section01 .text03{font-size: 25px;}
+    #section01 .mainSlide{height: 100vh;}
+
+    #section01 .mainSlide.mainSlide03 .contactWrap .number{font-size: 30px;}
+    #section01 .mainSlide.mainSlide03 .infoList li{font-size: 25px;}
+    #section01 .mainSlide.mainSlide03 .infoList li strong{font-size: 30px;}
+
+}
+
 /* section02 */
 #section02{padding: 120px 0 218px; background: url(../images/main/bg02.jpg)no-repeat center top; background-size: cover;}
 .titleWrap{margin-bottom: 44px;}
@@ -110,6 +128,20 @@
 
 }
 
+@media (max-width: 460px){
+
+    .titleWrap h1 span{font-size: 30px;}
+    .titleWrap h1 strong{font-size: 35px;}
+    .titleWrap h1 strong em::after{top: -5px; width: 6px; height: 6px;}
+
+    #section02 .text01{font-size: 30px;}
+    #section02 .text01 strong{width: 156px; height: 70px; font-size: 35px;}
+    #section02 .text02 strong,
+    #section02 .text02{font-size: 16px;}
+    #section02 .text02 br{display: none;}
+    
+}
+
 /* section03 */
 #section03{padding: 140px 0 83px; background: url(../images/main/bg03.jpg)no-repeat center top; background-size: cover;}
 #section03 .titleWrap{margin-bottom: 0;} 
@@ -126,7 +158,7 @@
 #section03 .top::after{content: ''; position: absolute; bottom: 37px; left: -100%; right: -100%; height: 10px; background-color: #ff661a; box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);}
 #section03 .infoList li{padding: 20px 0; display: flex; align-items: center; gap: 20px; border-bottom: 1px solid rgba(255,255,255, .2);}
 #section03 .infoList li:last-child{border: 0;}
-#section03 .infoList li span{display: block; width: 60px; height: 60px; line-height: 60px; border-radius: 50px; text-align: center; box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5); background-color: #ff661a; font-size: 25px; font-weight: 700; color: #000;}
+#section03 .infoList li span{display: block; width: 60px; height: 60px; line-height: 60px; border-radius: 50px; text-align: center; box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5); background-color: #ff661a; font-size: 25px; font-weight: 700; color: #000; flex-shrink: 0;}
 #section03 .infoList li p{font-size: 35px; font-weight: 300; color: #fff;}
 #section03 .infoList li p strong{font-weight: 700; color: #ff661a;}
 #section03 .info{margin-top: 40px; padding: 31.5px 20px; background-color: #ff661a; box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2); font-size: 18px; font-weight: 800; font-family: Pretendard; line-height: 1.25;}
@@ -147,7 +179,27 @@
     #section03 .infoList li span{width: 40px; height: 40px; line-height: 42px; font-size: 16px;}
     #section03 .infoList li p{font-size: 22px;}
     #section03 .info{padding: 27.5px 20px;}
+    #section03 .infoList li p{font-size: 18px;}
 
+}
+
+@media (max-width: 460px){
+
+    .titleWrap h1 span{font-size: 30px;}
+    .titleWrap h1 strong{font-size: 35px;}
+
+    #section02 .text01{font-size: 30px;}
+    #section02 .text01 strong{width: 156px; height: 70px; font-size: 35px;}
+    #section02 .text02 strong,
+    #section02 .text02{font-size: 16px;}
+    #section02 .text02 br{display: none;}
+
+    #section02 .infoList span{width: 50px; height: 50px; line-height: 54px; font-size: 25px;}
+    #section02 .infoList h2{font-size: 35px;}
+    #section02 .infoList p{font-size: 16px;}
+    #section02 .slickWrap button{top: 64px;}
+    #section03 h2{font-size: 25px;}
+    
 }
 
 /* section04 */
@@ -168,6 +220,17 @@
     #section04 .text01{margin-bottom: 104px; font-size: 18px;}
     #section04 .list li{width: 200px; height: 120px; line-height: 120px; font-size: 30px;}
     #section04 .list::after{top: -70px;}
+
+}
+
+@media (max-width: 460px){
+
+    #section03 .titleWrap h1 span em{font-size: 35px;}
+    #section03 .titleWrap h1 span,
+    #section03 .titleWrap h1 strong{font-size: 35px;}
+    #section04 .titleWrap h1 span > em{font-size: 30px;}
+    #section04 .list{gap: 2.2%}
+    #section04 .list li{margin-bottom: 10px; width: 48%; height: 97px; line-height: 97px; font-size: 20px;}
 
 }
 
@@ -213,6 +276,17 @@
 
 }
 
+@media (max-width: 460px){
+
+    #section05 .titleWrap{margin-bottom: 10px;}
+    #section05 .titleWrap h1 strong,
+    #section05 .titleWrap h1 span{font-size: 35px;}
+    #section05 .text01 strong{font-size: 18px;}
+    #section05 .text01 br{display: none;}
+    #section05 h2{font-size: 25px;}
+
+}
+
 /* section06 */
 #section06{padding: 160px 0 35px; background: url(../images/main/bg06.jpg)no-repeat center top; background-size: cover;}
 #section06 .titleWrap{margin-bottom: 42px;}
@@ -234,6 +308,13 @@
     #section06 .imgWrap{padding-top: 68%;}
     #section06 .imgWrap::after{height: 40px;}
     
+}
+
+@media (max-width: 460px){
+
+    #section06 .titleWrap .title br{display: none;}
+    #section06 .titleWrap .title{font-size: 25px;}
+
 }
 
 /* section07 */
@@ -275,6 +356,13 @@
 @media (max-width: 480px){
 
     #section07 .videoList li{width: 47.8%; padding-top: 31%;}
+
+}
+
+@media (max-width: 460px){
+
+    #section07 .titleWrap .title h1{flex-direction: column;}
+    #section07 .titleWrap .title h1 span, #section07 .titleWrap .title h1 strong{font-size: 35px;}
 
 }
 
@@ -323,6 +411,14 @@
 
 }
 
+@media (max-width: 460px){
+
+    #section08{padding: 70px 0 50px;}
+    #section08 .titleWrap h1 strong, #section08 .titleWrap h1 span{font-size: 30px;}
+    #section08 .areaRight img{width: 250px;}
+
+}
+
 /* section09 */
 #section09{padding:160px 0 0; height: 540px; background: url(../images/main/bg08.jpg)no-repeat center top; background-size: cover;}
 #section09 h1{position: relative;margin-bottom: 24px; color: #000; font-size: 80px; font-family: 'VITROCORETTF'; text-align: center;}
@@ -341,6 +437,17 @@
     #section09 h1::after{top: -50px; width: 40px; height: 40px;}
 
 }
+
+@media (max-width: 460px){
+
+    #section09{height: auto; padding: 80px 0 60px;}
+    #section09 h1{margin-bottom: 10px; font-size: 30px;}
+    #section09 h1::after{top:-40px; margin-left: -15px; width: 30px; height: 30px; background: url(../images/main/tel.png)no-repeat; background-size: cover;} 
+    #section09 .contactWrap .number{font-size: 25px;}
+
+}
+
+
 #footer{ height: 280px; background-color: #262626;}
 #footer address{padding-top: 80px; height: 210px; font-size: 18px; font-weight: 300; font-family: 'Pretendard'; color: #fff; line-height: 1.5;}
 #footer address br:nth-of-type(1){display: none;}
@@ -355,6 +462,12 @@
     #footer p{font-size: 14px;}
     #footer address{height: auto; padding: 60px 0;}
     #footer p{height: auto; padding: 27px 0;}
+
+}
+
+@media (max-width: 460px){
+
+    #footer address{padding: 38px 0;}    
 
 }
 
